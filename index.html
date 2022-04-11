@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+
+    <!-- link CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- I use a <h1> tag that says "Tip Calculator" -->
+    <h1>Tip Calculator</h1>
+
+    <!-- I used a <div> element with an class name of "container" and inside this container has four <p> tags that gives the user directions to bill amount, tip percentage, tip amount and total bill Also it will hold a button as well with the id name of "btn" that says "Calculate" -->
+    <!-- Also inside these <p> tags has a class name of "input" with it's respected name assigned to it as well -->
+    <div class="container">
+        <p>Bill Amount:</p>
+        <p class="input">
+            $ <input id="bill_amount" type="number">
+        </p>
+        <p>Tip Percentage:</p>
+        <p class="input">
+            $ <input id="tip_percentage" type="number">
+        </p>
+        <p>Tip Amount:</p>
+        <p class="input">
+            $ <input id="tip_amount" type="number">
+        </p>
+        <p>Tip Bill:</p>
+        <p class="input">
+            $ <input id="tip_amount" type="number">
+        </p>
+        <button id="btn">Calculate</button>
+    </div>
+
+    <!-- link JavaScript file -->
+    <script src="verb.js"></script>
+</body>
+</html>
